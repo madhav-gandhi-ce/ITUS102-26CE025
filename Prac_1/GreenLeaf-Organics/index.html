@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--
+    <head> = information about the page
+    <body> = everything the visitor sees
+-->
+<html lang="en">  <!--Main anguage of the webpage is now set to english-->
+<head>
+    <meta charset="UTF-8">  <!--This tells the browser which character encoding to use.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--This helps the webpage display properly on different screen sizes, especially mobile devices.-->
+    <meta name="author" content="Madhav Gandhi">  <!--This meta information is about the author.-->
+    <meta name="description" content="GreenLeaf Organics provides fresh and healthy organic food products.">
+    <title>GreenLeaf Organics | Organic Food Products</title>
+    <link rel="icon" href="images/logo.jpg">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="GreenLeaf Organics logo" width="150">
+        <h1>GreenLeaf Organics</h1>
+        <p>Pure. Natural. Healthy.</p>
+        <nav>
+            <a href="#home">Home</a>    <!--When clciked Home it will go to the element whose id is home.-->
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <!--
+            src → where is the image?
+            alt → what does the image represent?
+        -->
+    </header>
+
+    <main>
+        <section id="home">
+            <img src="images/banner.jpg" alt="Fresh organic food products">
+            <h2>Welcome to GreenLeaf Organics</h2>
+            <p>Fresh, natural and healthy organic food products for you.</p>                
+            <a href="#products">Explore Our Products</a> 
+
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>GreenLeaf Organics Pvt. Ltd. is a newly established organic food company.</p>
+            <p>It provides organic food products and related services to customers.</p>
+            <p>Its purpose is to establish an online presence, promote its organic products, and improve customer outreach through its official website.</p>
+        </section>
+        <section id="products">
+            <h2>Products</h2>
+            <article>
+                <h3>Organic Fruits & Vegetables</h3>
+                <p>Fresh and naturally grown fruits and vegetables, free from harmful chemicals.</p>
+            </article>
+            <article>
+                <h3>Organic Grains & Pulses</h3>
+                <p>Nutritious grains and pulses sourced from trusted organic farms.</p>
+            </article>
+            <article>
+                <h3>Organic Spices</h3>
+                <p>Pure and aromatic spices made from naturally grown ingredients.</p>
+            </article>
+            <article>
+                <h3>Organic Dry Fruits & Nuts</h3>
+                <p>Healthy and wholesome dry fruits and nuts packed with natural goodness.</p>
+            </article>
+            <article>
+                <h3>Organic Oils</h3>
+                <p>Pure and natural cooking oils made from carefully selected organic sources.</p>
+            </article>
+            <article>
+                <h3>Healthy Snacks</h3>
+                <p>Tasty and healthy snacks made with natural and organic ingredients.</p>
+            </article>
+
+            <table>
+                <thead>
+                <tr>
+                    <th>Products</th>
+                    <th>Availability</th>
+                    <th>Rating</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Organic Fruits & Vegetables</td>
+                    <td>Yes</td>
+                    <td>4.5/5</td>
+                </tr>
+                <tr>
+                    <td>Organic Grains & Pulses</td>
+                    <td>Yes</td>
+                    <td>3.5/5</td>
+                </tr>
+                <tr>
+                    <td>Organic Spices</td>
+                    <td>No</td>
+                    <td>4/5</td>
+                </tr>
+                <tr>
+                    <td>Organic Dry Fruits & Nuts</td>
+                    <td>Yes</td>
+                    <td>3.5/5</td>
+                </tr>
+                <tr>
+                    <td>Organic Oils</td>
+                    <td>No</td>
+                    <td>3/5</td>
+                </tr>
+                <tr>
+                    <td>Healthy Snacks</td>
+                    <td>Yes</td>
+                    <td>5/5</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Home Delivery - Fresh organic products delivered to your doorstep.</li>
+                <li>Organic Product Consultation - Guidance to help customers choose suitable organic products.</li>
+                <li>Bulk & Corporate Orders - Organic food solutions for offices, events, and larger requirements.</li>
+                <li>Subscription Plans - Regular delivery of selected organic products.</li>
+            </ul>
+        </section>
+        <aside>
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>100% Organic Products - We offer natural and organic products made without harmful chemicals.</li>
+                <li>Fresh & High Quality - Our products are carefully selected to ensure freshness, quality, and nutrition.</li>
+                <li>Trusted & Customer-Focused - We are committed to providing reliable products and excellent customer service.</li>
+            </ul>
+        </aside>
+        <section id="contact">
+            <h2>Company Contact Info</h2>
+            <p>Address : 123 Green Street, Ahmedabad, Gujarat, India</p>
+            <p>Email : greenleaforganics@example.com</p>
+            <p>Contact No. : 9874563201</p>
+            <p>Business Hours: Monday - Saturday, 9:00 AM - 6:00 PM</p>
+
+            <!--
+                id    : Gives an element a unique identifier on the page.
+                name  : Identifies the form field when its value is submitted.
+                for   : Connects a <label> to the <input> having the same id.
+                type  : Tells the <input> what kind of data it should accept.
+                placeholder : Shows temporary hint text inside an empty input.
+            -->
+
+            <form>
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <label for="name">Name : </label>
+                    <input type="text" id="name" name="name">
+                    <br>
+                    <label for="email">Email : </label>
+                    <input type="email" id="email" name="email" placeholder="trial@example.com">
+                    <br>
+                    <label for="phone">Contact No. : </label>
+                    <input type="tel" id="phone" name="contact">
+                    <br>
+                    <label for="message">Message : </label>
+                    <textarea name="message" id="message" placeholder="Enter Your Message Here"></textarea>
+                    <br>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 GreenLeaf Organics Pvt. Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>
