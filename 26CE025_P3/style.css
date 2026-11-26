@@ -1,0 +1,57 @@
+
+/* BODY STYLING */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 16px;
+    line-height: 1.5;
+}
+
+/* HEADING STYLING */
+h1 {
+    text-align: center;
+}
+
+/* SECTION STYLING */
+section {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+}
+
+/* LABEL STYLING */
+label {
+    display: inline-block;
+    min-width: 180px;
+    margin: 6px 0;
+}
+
+/* INPUT, SELECT AND BUTTON STYLING */
+input, select, button {
+    padding: 7px;
+    margin: 4px;
+}
+
+/* BUTTON STYLING */
+button {
+    cursor: pointer;
+}
+
+/* RESULT STYLING */
+.result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* TABLE STYLING */
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 6px;
+    text-align: center;
+}

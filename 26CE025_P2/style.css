@@ -1,0 +1,183 @@
+
+/* UNIVERSAL SELECTOR */
+* {
+    box-sizing: border-box;
+}
+
+/* BODY STYLING */
+body {
+    background-color: rgb(173, 230, 201);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+/* HEADING STYLING */
+h1, h2, h3, h4 {
+    color: #22362a;
+}
+
+/* HEADER STYLING */
+header {
+    background-color: #182720;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+header p {
+    text-align: center;
+}
+
+header img {
+    max-width: 250px;
+    height: auto;
+}
+
+/* NAVIGATION STYLING */
+nav {
+    background-color: #22362a;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    background-color: #182720;
+    color: #c79a3e;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #c79a3e;
+    color: #182720;
+}
+
+/* SECTION STYLING */
+section {
+    padding: 40px 20px;
+}
+
+section#home {
+    text-align: center;
+}
+
+section#home a {
+    display: inline-block;
+    background-color: #c79a3e;
+    color: #182720;
+    font-weight: bold;
+    padding: 12px 24px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* ARTICLE STYLING */
+article {
+    background-color: #f2fbf6;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+
+/* FORM STYLING */
+fieldset {
+    border: 1px solid #22362a;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #22362a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c79a3e;
+    color: #182720;
+}
+
+/* TABLE STYLING */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f2fbf6;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #22362a;
+    color: white;
+}
+
+/* CONTACT LINKS */
+address a {
+    color: #22362a;
+}
+
+/* FOOTER STYLING */
+footer {
+    background-color: #22362a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media screen and (max-width: 600px) {
+
+    nav li {
+        display: block;
+    }
+
+    nav a {
+        text-align: center;
+    }
+
+    section {
+        padding: 25px 15px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    header img {
+        max-width: 180px;
+    }
+}
